@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Мой сайт</title>
+    <link rel="stylesheet" href="example1.css"/>
+  </head>
+  <body>
+   <!--example1-->
+    <h1>Пример1</h1>
+    <div class="btn from-top">From Top</div>
+    <div class="btn from-left">From Left</div>
+    <div class="btn from-right">From Right</div>
+    <div class="btn from-center">From Center</div>
+    <div class="btn from-bottom">From Bottom</div>
+   <!--example1-->
+  <body>
+</html>
