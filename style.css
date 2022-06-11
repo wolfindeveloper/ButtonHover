@@ -217,14 +217,14 @@ body {
   flex-direction: column;
 }
 
-.btn {
+.btn2 {
   margin: 20px auto;
   border: none;
   padding: 10px 44px;
   font-size: 36px;
   position: relative;
 }
-.btn::before {
+.btn2::before {
   transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   content: "";
   width: 50%;
@@ -234,7 +234,7 @@ body {
   top: 0;
   left: 0;
 }
-.btn .btn-text {
+.btn2 .btn-text {
   color: white;
   mix-blend-mode: difference;
 }
@@ -242,19 +242,19 @@ body {
   background: black;
   width: 100%;
 }
-.btn.rounded {
+.btn2.rounded {
   border-radius: 50px;
 }
-.btn.rounded .text-green {
+.btn2.rounded .text-green {
   color: #00f0b5;
   mix-blend-mode: difference;
 }
-.btn.rounded::before {
+.btn2.rounded::before {
   border-radius: 50px;
   width: 25%;
   background: #00f0b5;
 }
-.btn.rounded:hover::before {
+.btn2.rounded:hover::before {
   background: #00f0b5;
   width: 100%;
 }
@@ -276,7 +276,7 @@ a {
   font-weight: 700;
 }
 
-.btn {
+.btn3 {
   position: relative;
   letter-spacing: 0.25em;
   margin: 0 auto;
@@ -286,7 +286,7 @@ a {
   font-size: 28px;
   color: #333333;
 }
-.btn::after, .btn::before {
+.btn3::after, .btn::before {
   content: "";
   position: absolute;
   height: 100%;
@@ -295,24 +295,24 @@ a {
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   z-index: -2;
 }
-.btn::before {
+.btn3::before {
   background-color: #ffff00;
   top: -1rem;
   left: 0rem;
 }
-.btn::after {
+.btn3::after {
   background-color: #8a19ff;
   top: 1rem;
   left: 8rem;
 }
-.btn:hover::before, .btn:hover::after {
+.btn3:hover::before, .btn:hover::after {
   top: 0;
   transform: skewx(0deg);
 }
-.btn:hover::after {
+.btn3:hover::after {
   left: 0rem;
 }
-.btn:hover::before {
+.btn3:hover::before {
   left: 8.75rem;
 }
 /*Пример3*/
