@@ -1,4 +1,4 @@
-/*example1*/
+/*Пример1*/
 /* ~~~~~~~ INIT. BTN ~~~~~~~ */
 
 .btn {		
@@ -193,13 +193,13 @@ html {
 
 div {margin-bottom: 3rem;}
 div:last-child {margin-bottom: 0;}
-/*example1*/
+/*Пример1*/
 
 
 
 
 
-/*example2*/
+/*Пример2*/
 body,
 html {
   height: 100%;
@@ -263,4 +263,61 @@ body {
   background: #00f0b5;
   width: 100%;
 }
-/*example2*/
+/*Пример2*/
+
+
+
+
+
+/*Пример3*/
+.container {
+  width: auto;
+  margin: auto;
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn {
+  position: relative;
+  letter-spacing: 0.25em;
+  margin: 0 auto;
+  padding: 1rem 2.5rem;
+  background: transparent;
+  outline: none;
+  font-size: 28px;
+  color: #333333;
+}
+.btn::after, .btn::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  transform: skewX(30deg);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  z-index: -2;
+}
+.btn::before {
+  background-color: #ffff00;
+  top: -1rem;
+  left: 0rem;
+}
+.btn::after {
+  background-color: #8a19ff;
+  top: 1rem;
+  left: 8rem;
+}
+.btn:hover::before, .btn:hover::after {
+  top: 0;
+  transform: skewx(0deg);
+}
+.btn:hover::after {
+  left: 0rem;
+}
+.btn:hover::before {
+  left: 8.75rem;
+}
+/*Пример3*/
