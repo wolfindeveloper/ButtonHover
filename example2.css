@@ -15,14 +15,14 @@ body {
   flex-direction: column;
 }
 
-.btn2 {
+.btn {
   margin: 20px auto;
   border: none;
   padding: 10px 44px;
   font-size: 36px;
   position: relative;
 }
-.btn2::before {
+.btn::before {
   transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   content: "";
   width: 50%;
@@ -32,7 +32,7 @@ body {
   top: 0;
   left: 0;
 }
-.btn2 .btn-text {
+.btn .btn-text {
   color: white;
   mix-blend-mode: difference;
 }
@@ -40,19 +40,19 @@ body {
   background: black;
   width: 100%;
 }
-.btn2.rounded {
+.btn.rounded {
   border-radius: 50px;
 }
-.btn2.rounded .text-green {
+.btn.rounded .text-green {
   color: #00f0b5;
   mix-blend-mode: difference;
 }
-.btn2.rounded::before {
+.btn.rounded::before {
   border-radius: 50px;
   width: 25%;
   background: #00f0b5;
 }
-.btn2.rounded:hover::before {
+.btn.rounded:hover::before {
   background: #00f0b5;
   width: 100%;
 }
