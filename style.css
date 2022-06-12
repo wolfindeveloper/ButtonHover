@@ -96,6 +96,7 @@ a:hover, a:focus {
 body {
   color: #fff;
   background-image: url('https://st.depositphotos.com/2547675/3009/i/450/depositphotos_30094505-stock-photo-time-clock.jpg');
+  background-size: 100% 100%;
   font: 300 1em "Fira Sans", sans-serif;
   justify-content: center;
   align-content: center;
